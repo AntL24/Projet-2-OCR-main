@@ -6,8 +6,8 @@
 a {
 	color: inherit;
 	text-decoration: none;
-	;
 }
+
 #anchor, #anchor1, #anchor2, #anchor3, #anchor4, #anchor5, #anchor6, #anchor7, #anchor8 {
 	display: contents;
 	text-decoration: none;
@@ -19,6 +19,8 @@ a {
 	text-decoration: none;
 	text-align: start;
 }
+
+
 nav {
 	display: flex;
 	align-items: center;
@@ -52,7 +54,6 @@ nav a:hover {
 .acti-heberg {
 	display: flex;
 	padding-right: 4vw;
-	align-items: center;
 }
 /* Corps de page */
 
@@ -246,7 +247,7 @@ input.ville:focus {
 }
 .case-résultat-populaire {
 	display: flex;
-	padding: 5px auto 5px 5px;
+	padding: 5px 0 5px 0px;
 	background-color: white;
 	flex-wrap: nowrap;
 	border-radius: 20px;
